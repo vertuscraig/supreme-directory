@@ -1,4 +1,3 @@
-
 @import "partials/featured-area";
 @import "partials/menu";
 @import "partials/containers";
@@ -55,7 +54,10 @@ body.sd {
   top: 0;
 }
 
-.sd .content-404, .sd .content-archive, .sd .content-single, .sd.home .content-box.content-single article.hentry {
+.sd .content-404,
+.sd .content-archive,
+.sd .content-single,
+.sd.home .content-box.content-single article.hentry {
   margin: 0 0 30px 0;
   border: 0;
 }
@@ -94,7 +96,8 @@ body.sd {
   margin: 0 auto;
   padding: 0 30px;
 }
-.sd.search h1.entry-title, .sd.author h1.entry-title {
+.sd.search h1.entry-title,
+.sd.author h1.entry-title {
   font-size: 18px;
   margin: 0;
 }
@@ -111,34 +114,34 @@ body.sd {
   font-size: 30px;
 }
 
-
-
 .sd .entry-subtitle {
   color: #fff;
   font-size: 20px;
   line-height: 35px;
 }
 
-.sd.home .geodir-loc-bar, .sd.sd-location .geodir-loc-bar {
+.sd.home .geodir-loc-bar,
+.sd.sd-location .geodir-loc-bar {
   border: 0 none;
   margin: 0 0 20px;
 }
 
-.sd.home .featured-area .geodir-loc-bar-in, .sd.sd-location .featured-area .geodir-loc-bar-in {
+.sd.home .featured-area .geodir-loc-bar-in,
+.sd.sd-location .featured-area .geodir-loc-bar-in {
   background: transparent none repeat scroll 0 0;
   border: 0 none;
   margin: 0 auto;
   max-width: 590px;
 }
 
-.sd.home .featured-area .geodir-filter-container, .sd.sd-location .featured-area .geodir-filter-container {
+.sd.home .featured-area .geodir-filter-container,
+.sd.sd-location .featured-area .geodir-filter-container {
   position: absolute;
   text-align: left;
   z-index: 5001;
   margin-right: 38px;
   margin-left: 8px;
 }
-
 
 .sd .near-compass {
   color: #ccc;
@@ -153,14 +156,16 @@ body.sd {
   color: #ed6d62;
 }
 
-.sd.home .featured-area .geodir-category-list-in, .sd.sd-location .featured-area .geodir-category-list-in {
+.sd.home .featured-area .geodir-category-list-in,
+.sd.sd-location .featured-area .geodir-category-list-in {
   background: transparent none repeat scroll 0 0;
   border: 0 none;
   margin-top: 0;
   padding: 0;
 }
 
-.sd.home .featured-area .geodir-cat-list-tax, .sd.sd-location .featured-area .geodir-cat-list-tax {
+.sd.home .featured-area .geodir-cat-list-tax,
+.sd.sd-location .featured-area .geodir-cat-list-tax {
   display: none;
 }
 
@@ -169,7 +174,10 @@ body.sd {
   margin-top: 20px;
 }
 
-.sd.home .featured-area .cat-link, .sd.home .featured-area .geodir-pcat-show img, .sd.sd-location .featured-area .cat-link, .sd.sd-location .featured-area .geodir-pcat-show img {
+.sd.home .featured-area .cat-link,
+.sd.home .featured-area .geodir-pcat-show img,
+.sd.sd-location .featured-area .cat-link,
+.sd.sd-location .featured-area .geodir-pcat-show img {
   display: block;
   margin: 0 auto;
 }
@@ -182,30 +190,37 @@ body.sd {
   margin-right: 0;
 }
 
-.sd.home .featured-area span.geodir_term_class, .sd.sd-location .featured-area span.geodir_term_class {
+.sd.home .featured-area span.geodir_term_class,
+.sd.sd-location .featured-area span.geodir_term_class {
   display: none;
 }
 
-.sd.home .featured-area .geodir-pcat-show > a, .home-more a, .sd.sd-location .featured-area .geodir-pcat-show > a {
+.sd.home .featured-area .geodir-pcat-show > a,
+.home-more a,
+.sd.sd-location .featured-area .geodir-pcat-show > a {
   color: #fff;
 }
 
-.sd.home .featured-area .geodir-pcat-show, .sd.sd-location .featured-area .geodir-pcat-show {
+.sd.home .featured-area .geodir-pcat-show,
+.sd.sd-location .featured-area .geodir-pcat-show {
   background: rgba(0, 0, 0, 0.5) none repeat scroll 0 center;
   border-radius: 10px;
   width: 18.4%;
   padding: 10px;
 }
 
-.sd.home .featured-area .geodir-pcat-show:hover, .sd.sd-location .featured-area .geodir-pcat-show:hover {
+.sd.home .featured-area .geodir-pcat-show:hover,
+.sd.sd-location .featured-area .geodir-pcat-show:hover {
   background: rgba(0, 0, 0, 0.2) none repeat scroll 0 center;
 }
 
-.sd.home .featured-area .geodir-pcat-show:last-child, .sd.sd-location .featured-area .geodir-pcat-show:last-child {
+.sd.home .featured-area .geodir-pcat-show:last-child,
+.sd.sd-location .featured-area .geodir-pcat-show:last-child {
   margin-right: 0;
 }
 
-.sd.home .featured-area .geodir-pcat-show img, .sd.sd-location .featured-area .geodir-pcat-show img {
+.sd.home .featured-area .geodir-pcat-show img,
+.sd.sd-location .featured-area .geodir-pcat-show img {
   height: 35px !important;
 }
 
@@ -225,11 +240,54 @@ body.sd {
   right: 46%;
 }
 
-.sd h3.widget-title, .sd h1.entry-title, .sd h2.entry-title, .sd h2.comments-title, .sd #comments h3#reply-title {
+.sd h3.widget-title,
+.sd h1.entry-title,
+.sd h2.entry-title,
+.sd h2.comments-title,
+.sd #comments h3#reply-title {
   border-bottom: 0 none;
 }
 
-.sd .content-box.content-single .commentlist-wrap, .sd .content .content-single.entry .commentlist-wrap, .sd #geodir_content.content-single .commentlist-wrap, .sd .sidebar .content-single.widget .commentlist-wrap, .sd .dt-sidebar .content-single.widget .commentlist-wrap, .sd .geodir-content-right .content-single.geodir-company_info .commentlist-wrap, .sd .geodir_full_page .content-single.geodir-category-list-in .commentlist-wrap, .sd .geodir_full_page .content-single.geodir-loc-bar .commentlist-wrap, .sd .geodir_preview_section form.content-single .commentlist-wrap, .sd .content-box.content-single #respond, .sd .content .content-single.entry #respond, .sd #geodir_content.content-single #respond, .sd .sidebar .content-single.widget #respond, .sd .dt-sidebar .content-single.widget #respond, .sd .geodir-content-right .content-single.geodir-company_info #respond, .sd .geodir_full_page .content-single.geodir-category-list-in #respond, .sd .geodir_full_page .content-single.geodir-loc-bar #respond, .sd .geodir_preview_section form.content-single #respond, .sd .content-box.content-single p.no-comments, .sd .content .content-single.entry p.no-comments, .sd #geodir_content.content-single p.no-comments, .sd .sidebar .content-single.widget p.no-comments, .sd .dt-sidebar .content-single.widget p.no-comments, .sd .geodir-content-right .content-single.geodir-company_info p.no-comments, .sd .geodir_full_page .content-single.geodir-category-list-in p.no-comments, .sd .geodir_full_page .content-single.geodir-loc-bar p.no-comments, .sd .geodir_preview_section form.content-single p.no-comments, .sd .content-box.content-single article.hentry, .sd .content .content-single.entry article.hentry, .sd #geodir_content.content-single article.hentry, .sd .sidebar .content-single.widget article.hentry, .sd .dt-sidebar .content-single.widget article.hentry, .sd .geodir-content-right .content-single.geodir-company_info article.hentry, .sd .geodir_full_page .content-single.geodir-category-list-in article.hentry, .sd .geodir_full_page .content-single.geodir-loc-bar article.hentry, .sd .geodir_preview_section form.content-single article.hentry, .sd .content-archive .commentlist-wrap, .sd .content-archive #respond, .sd .content-archive p.no-comments, .sd .content-archive article.hentry {
+.sd .content-box.content-single .commentlist-wrap,
+.sd .content .content-single.entry .commentlist-wrap,
+.sd #geodir_content.content-single .commentlist-wrap,
+.sd .sidebar .content-single.widget .commentlist-wrap,
+.sd .dt-sidebar .content-single.widget .commentlist-wrap,
+.sd .geodir-content-right .content-single.geodir-company_info .commentlist-wrap,
+.sd .geodir_full_page .content-single.geodir-category-list-in .commentlist-wrap,
+.sd .geodir_full_page .content-single.geodir-loc-bar .commentlist-wrap,
+.sd .geodir_preview_section form.content-single .commentlist-wrap,
+.sd .content-box.content-single #respond,
+.sd .content .content-single.entry #respond,
+.sd #geodir_content.content-single #respond,
+.sd .sidebar .content-single.widget #respond,
+.sd .dt-sidebar .content-single.widget #respond,
+.sd .geodir-content-right .content-single.geodir-company_info #respond,
+.sd .geodir_full_page .content-single.geodir-category-list-in #respond,
+.sd .geodir_full_page .content-single.geodir-loc-bar #respond,
+.sd .geodir_preview_section form.content-single #respond,
+.sd .content-box.content-single p.no-comments,
+.sd .content .content-single.entry p.no-comments,
+.sd #geodir_content.content-single p.no-comments,
+.sd .sidebar .content-single.widget p.no-comments,
+.sd .dt-sidebar .content-single.widget p.no-comments,
+.sd .geodir-content-right .content-single.geodir-company_info p.no-comments,
+.sd .geodir_full_page .content-single.geodir-category-list-in p.no-comments,
+.sd .geodir_full_page .content-single.geodir-loc-bar p.no-comments,
+.sd .geodir_preview_section form.content-single p.no-comments,
+.sd .content-box.content-single article.hentry,
+.sd .content .content-single.entry article.hentry,
+.sd #geodir_content.content-single article.hentry,
+.sd .sidebar .content-single.widget article.hentry,
+.sd .dt-sidebar .content-single.widget article.hentry,
+.sd .geodir-content-right .content-single.geodir-company_info article.hentry,
+.sd .geodir_full_page .content-single.geodir-category-list-in article.hentry,
+.sd .geodir_full_page .content-single.geodir-loc-bar article.hentry,
+.sd .geodir_preview_section form.content-single article.hentry,
+.sd .content-archive .commentlist-wrap,
+.sd .content-archive #respond,
+.sd .content-archive p.no-comments,
+.sd .content-archive article.hentry {
   background-color: #fff;
   font-size: 15px;
   margin: 0 0 30px;
@@ -237,11 +295,11 @@ body.sd {
   box-shadow: none;
 }
 
-.sd-my-account-dd-inner a.goedir-forgot-link{
+.sd-my-account-dd-inner a.goedir-forgot-link {
   float: left;
 }
 
-.sd-my-account-dd-inner a.goedir-newuser-link{
+.sd-my-account-dd-inner a.goedir-newuser-link {
   float: right;
 }
 
@@ -290,33 +348,33 @@ body.sd {
 SIDEBARS CSS START
 #################################################
 */
-.sd .entry-content.sidebar-right{
+.sd .entry-content.sidebar-right {
   float: left;
   padding-right: 1%;
-  border-right:1px solid #eee;
+  border-right: 1px solid #eee;
 }
 
-.sd .entry-content.sidebar-left{
+.sd .entry-content.sidebar-left {
   float: right;
   padding-left: 1%;
-  border-left:1px solid #eee;
+  border-left: 1px solid #eee;
 }
 
-.sd .sd-sidebar-left{
+.sd .sd-sidebar-left {
   float: left;
   margin-right: 1%;
 }
 
-.sd .sd-sidebar-right{
+.sd .sd-sidebar-right {
   float: right;
   margin-left: 1%;
 }
 
-.sd .entry-content.sidebar-active{
+.sd .entry-content.sidebar-active {
   width: 74%;
 }
 
-.sd .sd-sidebar{
+.sd .sd-sidebar {
   width: 24%;
 }
 /*
@@ -325,13 +383,12 @@ SIDEBARS CSS END
 #################################################
 */
 
-#home-scroll:after{
+#home-scroll:after {
   content: " ";
   display: block;
   height: 0;
   clear: both;
 }
-
 
 .sd .geodir_location_description {
   margin-bottom: 40px;
@@ -359,18 +416,21 @@ SIDEBARS CSS END
 //  top: 32px;
 //}
 
-.sd.search.geodir-page .entry-header, .sd.archive.geodir-page .entry-header {
+.sd.search.geodir-page .entry-header,
+.sd.archive.geodir-page .entry-header {
   /*display: none;*/
 }
 
-.sd.search.geodir-page .geodir-common, .sd.archive.geodir-page .geodir-common {
+.sd.search.geodir-page .geodir-common,
+.sd.archive.geodir-page .geodir-common {
   margin: 0;
   padding: 0;
   width: 100%;
   display: flex;
 }
 
-.sd.search.geodir-page #geodir_content, .sd.archive.geodir-page #geodir_content {
+.sd.search.geodir-page #geodir_content,
+.sd.archive.geodir-page #geodir_content {
   flex-basis: 60%;
   width: 60% !important;
   padding: 20px;
@@ -393,16 +453,22 @@ SIDEBARS CSS END
   margin-right: 0 !important;
 }
 
-.sd.search.geodir-page #sticky_map_gd_listing_map, .sd.archive.geodir-page #sticky_map_gd_listing_map {
+.sd.search.geodir-page #sticky_map_gd_listing_map,
+.sd.archive.geodir-page #sticky_map_gd_listing_map {
   /*min-height: calc(100vh - 61px) !important;*/
 }
 
-.sd.search.geodir-page #gd_listing_map_wrapper, .sd.search.geodir-page #gd_listing_map, .sd.search.geodir-page #gd_listing_map_loading_div,
-.sd.archive.geodir-page #gd_listing_map_wrapper, .sd.archive.geodir-page #gd_listing_map, .sd.archive.geodir-page #gd_listing_map_loading_div {
+.sd.search.geodir-page #gd_listing_map_wrapper,
+.sd.search.geodir-page #gd_listing_map,
+.sd.search.geodir-page #gd_listing_map_loading_div,
+.sd.archive.geodir-page #gd_listing_map_wrapper,
+.sd.archive.geodir-page #gd_listing_map,
+.sd.archive.geodir-page #gd_listing_map_loading_div {
   /* height: calc(100vh - 61px) !important;*/
 }
 
-.sd.search.geodir-page .geodir-loc-bar, .sd.archive.geodir-page .geodir-loc-bar {
+.sd.search.geodir-page .geodir-loc-bar,
+.sd.archive.geodir-page .geodir-loc-bar {
   margin: 0;
   padding: 0;
 }
@@ -415,7 +481,8 @@ SIDEBARS CSS END
   float: right;
 }
 
-.sd.search.geodir-page .site-footer, .sd.archive.geodir-page .site-footer {
+.sd.search.geodir-page .site-footer,
+.sd.archive.geodir-page .site-footer {
   display: none;
 }
 
@@ -443,15 +510,28 @@ SIDEBARS CSS END
   width: calc(20% - 12px);
 }
 
-.sd .geodir_category_list_view li.gridview_onehalf:nth-child(2n+2), .geodir_category_list_view li.gridview_onethird:nth-child(3n+3), .geodir_category_list_view li.gridview_onefourth:nth-child(4n+4), .geodir_category_list_view li.gridview_onefifth:nth-child(5n+5) {
+.sd .geodir_category_list_view li.gridview_onehalf:nth-child(2n + 2),
+.geodir_category_list_view li.gridview_onethird:nth-child(3n + 3),
+.geodir_category_list_view li.gridview_onefourth:nth-child(4n + 4),
+.geodir_category_list_view li.gridview_onefifth:nth-child(5n + 5) {
   margin-right: 0;
 }
 
-.sd.search.geodir-page .geodir_category_list_view li.geodir-gridview .geodir-content .geodir-entry-content, .sd.archive.geodir-page .geodir_category_list_view li.geodir-gridview .geodir-content .geodir-entry-content {
+.sd.search.geodir-page
+  .geodir_category_list_view
+  li.geodir-gridview
+  .geodir-content
+  .geodir-entry-content,
+.sd.archive.geodir-page
+  .geodir_category_list_view
+  li.geodir-gridview
+  .geodir-content
+  .geodir-entry-content {
   display: none;
 }
 
-.sd .geodir_category_list_view li.geodir-gridview .geodir-content, .sd .geodir_category_list_view li.geodir-gridview .geodir-addinfo {
+.sd .geodir_category_list_view li.geodir-gridview .geodir-content,
+.sd .geodir_category_list_view li.geodir-gridview .geodir-addinfo {
   margin: 0;
   width: 100%;
 }
@@ -462,7 +542,11 @@ SIDEBARS CSS END
   margin: 0;
 }
 
-.sd .geodir_category_list_view li.geodir-gridview .geodir-content .geodir_more_info {
+.sd
+  .geodir_category_list_view
+  li.geodir-gridview
+  .geodir-content
+  .geodir_more_info {
   padding: 0 0 5px;
 }
 
@@ -476,11 +560,19 @@ SIDEBARS CSS END
   display: none;
 }
 
-.sd .geodir_category_list_view li.geodir-gridview .geodir-addinfo a.geodir-pcomments {
+.sd
+  .geodir_category_list_view
+  li.geodir-gridview
+  .geodir-addinfo
+  a.geodir-pcomments {
   font-size: 16px;
 }
 
-.sd .geodir_category_list_view li.geodir-gridview .geodir-addinfo a.geodir-pcomments::before {
+.sd
+  .geodir_category_list_view
+  li.geodir-gridview
+  .geodir-addinfo
+  a.geodir-pcomments::before {
   content: " -";
 }
 
@@ -488,7 +580,8 @@ SIDEBARS CSS END
   position: relative;
 }
 
-.sd a.geodir-addtofav-icon, .sd a.geodir-removetofav-icon {
+.sd a.geodir-addtofav-icon,
+.sd a.geodir-removetofav-icon {
   //color: transparent;
   //font-size: 1px;
 }
@@ -502,22 +595,31 @@ SIDEBARS CSS END
   font-size: 20px;
 }
 
-.sd.archive.geodir-page .geodir_advanced_search_widget, .sd.search.geodir-page .geodir_advanced_search_widget {
+.sd.archive.geodir-page .geodir_advanced_search_widget,
+.sd.search.geodir-page .geodir_advanced_search_widget {
   margin-bottom: 10px;
 }
 
-.sd.search.geodir-page .geodir-loc-bar, .sd.archive.geodir-page .geodir-loc-bar {
+.sd.search.geodir-page .geodir-loc-bar,
+.sd.archive.geodir-page .geodir-loc-bar {
   border: 0 none;
 }
 
-.sd.search.geodir-page .geodir-loc-bar-in, .sd.archive.geodir-page .geodir-loc-bar-in {
+.sd.search.geodir-page .geodir-loc-bar-in,
+.sd.archive.geodir-page .geodir-loc-bar-in {
   background: transparent none repeat scroll 0 0;
   border: 0 none;
   box-shadow: none;
   padding: 0;
 }
 
-.sd .content-box, .sd .content .entry, .sd #geodir_content, .sd .sidebar .widget, .sd .geodir-content-right .geodir-company_info, .sd .geodir_full_page .geodir-category-list-in, .sd .geodir_full_page .geodir-loc-bar {
+.sd .content-box,
+.sd .content .entry,
+.sd #geodir_content,
+.sd .sidebar .widget,
+.sd .geodir-content-right .geodir-company_info,
+.sd .geodir_full_page .geodir-category-list-in,
+.sd .geodir_full_page .geodir-loc-bar {
   background-color: #ffffff;
   border-color: transparent;
   box-shadow: none;
@@ -525,12 +627,13 @@ SIDEBARS CSS END
   padding: 0;
 }
 
-.sd .sidebar .widget{
+.sd .sidebar .widget {
   display: block;
   clear: both;
 }
 
-.sd.search.geodir-page .geodir-search, .sd.archive.geodir-page .geodir-search {
+.sd.search.geodir-page .geodir-search,
+.sd.archive.geodir-page .geodir-search {
   margin-right: 0;
   width: 100%;
 }
@@ -541,11 +644,10 @@ SIDEBARS CSS END
 .sd.archive.geodir-page .geodir-adv-form .search_text,
 .sd.search.geodir-page .geodir-adv-form .snear,
 .sd.archive.geodir-page .geodir-adv-form .snear {
-
 }
 
-
-.sd .Navi, .sd .nav-links {
+.sd .Navi,
+.sd .nav-links {
   border-top: 0 none;
   overflow: hidden;
   padding-top: 0;
@@ -565,18 +667,22 @@ SIDEBARS CSS END
   overflow: hidden;
 }
 
-a#showMap, a#showSearch, a#hideMap {
+a#showMap,
+a#showSearch,
+a#hideMap {
   width: auto;
   font-size: 16px;
 }
 
-a#showMap, a#hideMap {
+a#showMap,
+a#hideMap {
   float: right;
   position: relative;
   z-index: 1;
 }
 
-a#showSearch, a#hideMap {
+a#showSearch,
+a#hideMap {
   float: left;
 }
 
@@ -655,7 +761,7 @@ a#hideMap {
   z-index: 111;
   right: 0;
   width: 270px;
-  background: #2F2F2F;
+  background: #2f2f2f;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-top: none;
   -webkit-box-sizing: border-box;
@@ -723,11 +829,9 @@ a#hideMap {
   overflow: hidden;
 }
 
-
 .sd-register {
   padding-bottom: 10px;
 }
-
 
 /*
 #################################################
@@ -735,14 +839,15 @@ MOBILE MENU
 #################################################
 */
 
-.mm-opened .sd.search.geodir-page #site-header, .mm-opened .sd.archive.geodir-page #site-header{
+.mm-opened .sd.search.geodir-page #site-header,
+.mm-opened .sd.archive.geodir-page #site-header {
   position: relative;
 }
 
-.mm-opened .sd.search.geodir-page #geodir_wrapper, .mm-opened .sd.archive.geodir-page #geodir_wrapper{
+.mm-opened .sd.search.geodir-page #geodir_wrapper,
+.mm-opened .sd.archive.geodir-page #geodir_wrapper {
   margin-top: 0 !important;
 }
-
 
 /* Details page */
 
@@ -837,7 +942,7 @@ MOBILE MENU
 
 .sd .sd-contacts a {
   color: #82888a;
-  margin: 0 5px 0 0
+  margin: 0 5px 0 0;
 }
 
 .sd-contacts > a:last-child {
@@ -905,7 +1010,8 @@ a.dt-btn:visited {
   width: 54px;
 }
 
-.sd.single.geodir-page #geodir_content, .sd.sd-preview #geodir_content {
+.sd.single.geodir-page #geodir_content,
+.sd.sd-preview #geodir_content {
   width: 63%;
 }
 
@@ -914,7 +1020,8 @@ a.dt-btn:visited {
   line-height: 24px;
 }
 
-.sd.single.geodir-page #reviewsTab, .sd.sd-preview #reviewsTab {
+.sd.single.geodir-page #reviewsTab,
+.sd.sd-preview #reviewsTab {
   margin: 30px 0;
 }
 
@@ -922,16 +1029,19 @@ h2.comments-title {
   font-size: 1.7em;
 }
 
-.sd.single.geodir-page #gd-sidebar-wrapper, .sd.sd-preview #gd-sidebar-wrapper {
+.sd.single.geodir-page #gd-sidebar-wrapper,
+.sd.sd-preview #gd-sidebar-wrapper {
   margin-left: 9%;
   width: 28%;
 }
 
-.sd.single.geodir-page #gd-sidebar-wrapper.geodir-sidebar-left, .sd.sd-preview #gd-sidebar-wrapper.geodir-sidebar-left {
+.sd.single.geodir-page #gd-sidebar-wrapper.geodir-sidebar-left,
+.sd.sd-preview #gd-sidebar-wrapper.geodir-sidebar-left {
   margin-left: 0;
 }
 
-.sd.single.geodir-page #geodir-post-gallery a, .sd.sd-preview #geodir-post-gallery a {
+.sd.single.geodir-page #geodir-post-gallery a,
+.sd.sd-preview #geodir-post-gallery a {
   border: 0 none;
   margin: 0;
   width: 33.3333%;
@@ -1038,8 +1148,7 @@ h2.comments-title {
 .sd.blog .content-box.content-single article.hentry,
 .sd.search .content-box.content-search article.hentry,
 .sd.archive .content-box.content-archive article.hentry,
-.sd.category .content-box.content-archive article.hentry
-{
+.sd.category .content-box.content-archive article.hentry {
   border: 0 none;
   clear: none;
   margin: 0 5% 50px 0;
@@ -1047,12 +1156,11 @@ h2.comments-title {
   display: inline-table;
 }
 
-.sd.blog .content-box.content-single article.hentry:nth-child(3n+3),
-.sd.search .content-box.content-search article.hentry:nth-child(3n+3),
-.sd.archive .content-box.content-archive article.hentry:nth-child(3n+3),
-.sd.category .content-box.content-archive article.hentry:nth-child(3n+3),
-.sd.author .content-box.content-archive article.hentry:nth-child(3n+3)
-{
+.sd.blog .content-box.content-single article.hentry:nth-child(3n + 3),
+.sd.search .content-box.content-search article.hentry:nth-child(3n + 3),
+.sd.archive .content-box.content-archive article.hentry:nth-child(3n + 3),
+.sd.category .content-box.content-archive article.hentry:nth-child(3n + 3),
+.sd.author .content-box.content-archive article.hentry:nth-child(3n + 3) {
   margin-right: 0;
 }
 
@@ -1060,8 +1168,7 @@ h2.comments-title {
 .sd.search .content-box.content-search,
 .sd.archive .content-box.content-archive,
 .sd.category .content-box.content-archive,
-.sd.author .content-box.content-archive
-{
+.sd.author .content-box.content-archive {
   margin: 60px 0;
   overflow: hidden;
 }
@@ -1070,34 +1177,35 @@ h2.comments-title {
 .sd.search .content-box.content-search article.hentry .container,
 .sd.archive .content-box.content-archive article.hentry .container,
 .sd.category .content-box.content-archive article.hentry .container,
-.sd.author .content-box.content-archive article.hentry .container
-{
+.sd.author .content-box.content-archive article.hentry .container {
   width: 100%;
 }
 
 .sd.blog .entry-content,
 .sd.search .entry-content,
 .sd.category .entry-content,
-.sd.archive .entry-content
-{
+.sd.archive .entry-content {
   margin: 20px auto 0;
 }
 
 .sd.blog article h2.entry-title,
 .sd.search article h2.entry-title,
 .sd.archive article h2.entry-title,
-.sd.category article h2.entry-title
-{
+.sd.category article h2.entry-title {
   font-size: 25px;
   padding: 0;
   /*text-align: center; @todo who added this, i don't like it...*/
 }
 
-.sd.blog .entry-footer, .sd.search .content-box.content-search .entry-footer, .sd.category .entry-footer, .sd.single-post .entry-footer {
+.sd.blog .entry-footer,
+.sd.search .content-box.content-search .entry-footer,
+.sd.category .entry-footer,
+.sd.single-post .entry-footer {
   /*text-align: center;*/
 }
 
-.nav-links a, .nav-links a:last-child {
+.nav-links a,
+.nav-links a:last-child {
   border: 0 none;
 }
 
@@ -1121,40 +1229,42 @@ h2.comments-title {
   width: 120px;
 }
 
-
-
 /* Location Manager - Advanced search */
 
-.geodir-search .snear.near-country, .gd-small-country {
+.geodir-search .snear.near-country,
+.gd-small-country {
   opacity: 1;
 }
 
-.geodir-search .snear.near-city, .gd-small-city {
+.geodir-search .snear.near-city,
+.gd-small-city {
   background-color: #fff;
   color: #0393b7;
 }
 
-.geodir-search .snear.near-region, .gd-small-region {
+.geodir-search .snear.near-region,
+.gd-small-region {
   background-color: #fff;
   color: #c39405;
 }
 
-.geodir-search .snear.near-country, .gd-small-country {
+.geodir-search .snear.near-country,
+.gd-small-country {
   background-color: #fff;
   color: #0e950e;
 }
 
 /* FULL SCREEN MAP  */
-body.body_fullscreen #geodir_wrapper{
+body.body_fullscreen #geodir_wrapper {
   margin-top: 0 !important;
 }
 body.body_fullscreen #geodir_content,
-body.body_fullscreen #site-header{
+body.body_fullscreen #site-header {
   display: none;
 }
 body.body_fullscreen #gd-sidebar-wrapper,
 body.body_fullscreen #sticky_map_gd_listing_map,
-body.body_fullscreen #gd_listing_map_wrapper{
+body.body_fullscreen #gd_listing_map_wrapper {
   height: 100vh !important;
 }
 
@@ -1176,8 +1286,8 @@ body.body_fullscreen #gd_listing_map_wrapper{
 #gd-account-nav.mm-opened .mm-list i.fa {
   display: none;
 }
-#gd-account-nav.mm-opened .mm-list>li>a,
-#gd-account-nav.mm-opened .mm-list>li>span {
+#gd-account-nav.mm-opened .mm-list > li > a,
+#gd-account-nav.mm-opened .mm-list > li > span {
   display: inline-block;
 }
 #gd-account-nav.mm-opened .chosen-drop {
@@ -1194,27 +1304,26 @@ body.body_fullscreen #gd_listing_map_wrapper{
   font-size: 15px;
 }
 
-#mm-primary-nav li.sd-my-account{
+#mm-primary-nav li.sd-my-account {
   /*display: none;*/
 }
 
-#mm-primary-nav li.sd-my-account .sd-my-account-dd{
+#mm-primary-nav li.sd-my-account .sd-my-account-dd {
   display: block !important;
   width: 100%;
 }
 
-
-#mm-primary-nav li.sd-my-account .sd-my-account-dd .mm-subtitle{
+#mm-primary-nav li.sd-my-account .sd-my-account-dd .mm-subtitle {
   display: none;
 }
 
-#mm-primary-nav .sd-my-account-dd{
+#mm-primary-nav .sd-my-account-dd {
   display: block !important;
   width: 100%;
 }
 
 #mm-primary-nav .sd-my-account-dd .mm-subtitle,
-#primary-nav #sd-my-account div.mm-subtitle{
+#primary-nav #sd-my-account div.mm-subtitle {
   display: none;
 }
 
@@ -1227,7 +1336,9 @@ body.body_fullscreen #gd_listing_map_wrapper{
 }
 
 /* screen reader text causing sidebar to apear */
-.screen-reader-text{height: 0px;}
+.screen-reader-text {
+  height: 0px;
+}
 
 /*
 #################################################
@@ -1235,23 +1346,17 @@ RTL SUPPORT
 #################################################
 */
 
-
-
 /* RESPONSIVE STUFF */
 
 @media all and (min-width: 768px) and (max-width: 1280px) {
-
-  .sd.single.geodir-page .featured-area, .sd.sd-preview .featured-area {
+  .sd.single.geodir-page .featured-area,
+  .sd.sd-preview .featured-area {
     height: 60vh;
   }
-
-
-
 }
 
 @media (max-width: 992px) {
-
-  .sd-archive-resizer{
+  .sd-archive-resizer {
     display: none;
   }
   .sd.search.geodir-page .sd-sidebar-right,
@@ -1262,18 +1367,21 @@ RTL SUPPORT
     margin-bottom: 0 !important;
   }
 
-  .sd.archive.geodir-page .container .sd-sidebar, .sd.search.geodir-page .container .sd-sidebar {
+  .sd.archive.geodir-page .container .sd-sidebar,
+  .sd.search.geodir-page .container .sd-sidebar {
     visibility: hidden;
     z-index: -1;
     width: 100%;
     margin: 0;
   }
 
-  .sd.search.geodir-page .gd_rating_show, .sd.archive.geodir-page .gd_rating_show {
+  .sd.search.geodir-page .gd_rating_show,
+  .sd.archive.geodir-page .gd_rating_show {
     z-index: 0;
   }
 
-  .sd.search.geodir-page #sd-archive-map, .sd.archive.geodir-page #sd-archive-map {
+  .sd.search.geodir-page #sd-archive-map,
+  .sd.archive.geodir-page #sd-archive-map {
     flex-basis: 100%;
     width: 100% !important;
   }
@@ -1282,15 +1390,18 @@ RTL SUPPORT
     display: block;
   }
 
-  .sd.archive.geodir-page .geodir-search-container, .sd.search.geodir-page .geodir-search-container {
+  .sd.archive.geodir-page .geodir-search-container,
+  .sd.search.geodir-page .geodir-search-container {
     display: none;
   }
 
-  .sd.single.geodir-page .featured-area, .sd.sd-preview .featured-area {
+  .sd.single.geodir-page .featured-area,
+  .sd.sd-preview .featured-area {
     height: 50vh;
   }
 
-  .sd.single.geodir-page .container .sd-sidebar, .sd.sd-preview .container .sd-sidebar {
+  .sd.single.geodir-page .container .sd-sidebar,
+  .sd.sd-preview .container .sd-sidebar {
     margin-left: 0;
   }
 
@@ -1298,7 +1409,8 @@ RTL SUPPORT
     margin: 10px 30px 0 0;
   }
 
-  .sd .author-avatar, .sd .author-avatar img {
+  .sd .author-avatar,
+  .sd .author-avatar img {
     height: 50px;
     width: 50px;
   }
@@ -1327,7 +1439,8 @@ RTL SUPPORT
     width: 44px;
   }
 
-  .sd.blog .content-box.content-single article.hentry, .sd.category .content-box.content-archive article.hentry {
+  .sd.blog .content-box.content-single article.hentry,
+  .sd.category .content-box.content-archive article.hentry {
     margin: 0 3% 50px 3%;
     width: 44%;
   }
@@ -1338,23 +1451,22 @@ RTL SUPPORT
   #################################################
   */
 
-
-  .sd .entry-content.sidebar-active{
+  .sd .entry-content.sidebar-active {
     float: none;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    border-right:none;
-    border-left:none;
+    border-right: none;
+    border-left: none;
   }
 
-  .sd .sd-sidebar{
+  .sd .sd-sidebar {
     float: none;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    border-right:none;
-    border-left:none;;
+    border-right: none;
+    border-left: none;
   }
   /*
   #################################################
@@ -1367,7 +1479,8 @@ RTL SUPPORT
   MOBILE TOGGLE MAP/LISTINGS START
   #################################################
   */
-  .sd-map-only.sd.archive.geodir-page .container .sd-sidebar,.sd-map-only.sd.search.geodir-page .container .sd-sidebar{
+  .sd-map-only.sd.archive.geodir-page .container .sd-sidebar,
+  .sd-map-only.sd.search.geodir-page .container .sd-sidebar {
     visibility: visible;
     z-index: 1;
     width: 100%;
@@ -1379,30 +1492,31 @@ RTL SUPPORT
     display: none;
   }
 
-  .sd-map-only #showMap, .sd-map-only #showSearch{
+  .sd-map-only #showMap,
+  .sd-map-only #showSearch {
     display: none;
   }
 
-  .sd-map-only #hideMap{
+  .sd-map-only #hideMap {
     display: block;
   }
 
-
-  .sd-listings-only.sd.archive.geodir-page aside#gd-sidebar-wrapper,.sd-listings-only.sd.search.geodir-page aside#gd-sidebar-wrapper{
+  .sd-listings-only.sd.archive.geodir-page aside#gd-sidebar-wrapper,
+  .sd-listings-only.sd.search.geodir-page aside#gd-sidebar-wrapper {
     visibility: hidden;
   }
 
-  .sd-listings-only #showMap, .sd-map-only #showSearch{
+  .sd-listings-only #showMap,
+  .sd-map-only #showSearch {
     display: block;
   }
 
-  .sd-listings-only #hideMap{
+  .sd-listings-only #hideMap {
     display: none;
   }
 
-
-
-  .sd-show-search.sd.archive.geodir-page .geodir-search-container, .sd-show-search.sd.search.geodir-page .geodir-search-container{
+  .sd-show-search.sd.archive.geodir-page .geodir-search-container,
+  .sd-show-search.sd.search.geodir-page .geodir-search-container {
     display: block;
   }
   /*
@@ -1411,7 +1525,7 @@ RTL SUPPORT
   #################################################
   */
 
-  .geodir_preview_section{
+  .geodir_preview_section {
     width: 100%;
     max-width: 100%;
     padding-top: 0px;
@@ -1420,8 +1534,8 @@ RTL SUPPORT
 }
 
 @media all and (max-width: 668px) {
-
-  .sd.home .featured-area, .sd.sd-location .featured-area {
+  .sd.home .featured-area,
+  .sd.sd-location .featured-area {
     display: block;
     height: auto;
     padding: 100px 0 30px;
@@ -1437,7 +1551,8 @@ RTL SUPPORT
     line-height: normal;
   }
 
-  .sd.home .cat-link, .sd.sd-location .cat-link {
+  .sd.home .cat-link,
+  .sd.sd-location .cat-link {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1481,7 +1596,9 @@ RTL SUPPORT
     clear: both;
   }
 
-  .sd.blog .content-box.content-single article.hentry, .sd.search .content-box.content-search article.hentry, .sd.category .content-box.content-archive article.hentry {
+  .sd.blog .content-box.content-single article.hentry,
+  .sd.search .content-box.content-search article.hentry,
+  .sd.category .content-box.content-archive article.hentry {
     float: none;
     margin: 0 5% 50px 5%;
     width: 90%;
@@ -1495,15 +1612,14 @@ RTL SUPPORT
     line-height: 25px;
   }
 
-  .geodir_preview_section{
+  .geodir_preview_section {
     margin-top: -50px;
   }
-
 }
 
-
 @media all and (max-width: 600px) {
-  .home.sd.admin-bar .site-header, .sd-homepage.admin-bar .site-header {
+  .home.sd.admin-bar .site-header,
+  .sd-homepage.admin-bar .site-header {
     top: 46px;
   }
   .sd .sd-detail-info {
@@ -1512,15 +1628,21 @@ RTL SUPPORT
 }
 
 @media all and (max-width: 375px) {
-
-  a#showMap, a#showSearch, a#hideMap {
+  a#showMap,
+  a#showSearch,
+  a#hideMap {
     font-size: 13px;
   }
 
-  .sd.search.geodir-page .search_text, .sd.archive.geodir-page .search_text, .sd.search.geodir-page .snear, .sd.archive.geodir-page .snear,
-  .sd .featured-area  .geodir-cat-list ul li,
-  .sd.search.geodir-page .geodir-search input[type="button"], .sd.search.geodir-page .geodir-search input[type="submit"],
-  .sd.archive.geodir-page .geodir-search input[type="button"], .sd.archive.geodir-page .geodir-search input[type="submit"] {
+  .sd.search.geodir-page .search_text,
+  .sd.archive.geodir-page .search_text,
+  .sd.search.geodir-page .snear,
+  .sd.archive.geodir-page .snear,
+  .sd .featured-area .geodir-cat-list ul li,
+  .sd.search.geodir-page .geodir-search input[type="button"],
+  .sd.search.geodir-page .geodir-search input[type="submit"],
+  .sd.archive.geodir-page .geodir-search input[type="button"],
+  .sd.archive.geodir-page .geodir-search input[type="submit"] {
     width: 100%;
   }
 
@@ -1529,28 +1651,39 @@ RTL SUPPORT
     width: 100%;
   }
 
-  .sd.home .geodir-search input[type="text"], .sd.home .geodir-search select, .sd.home .geodir-search input[type="button"],
-  .sd.sd-location .geodir-search input[type="text"], .sd.sd-location .geodir-search select, .sd.sd-location .geodir-search input[type="button"] {
+  .sd.home .geodir-search input[type="text"],
+  .sd.home .geodir-search select,
+  .sd.home .geodir-search input[type="button"],
+  .sd.sd-location .geodir-search input[type="text"],
+  .sd.sd-location .geodir-search select,
+  .sd.sd-location .geodir-search input[type="button"] {
     width: 100%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 
-  .sd.home .cat-link, .sd.sd-location .cat-link {
+  .sd.home .cat-link,
+  .sd.sd-location .cat-link {
     display: none;
   }
 
   body.sd .featured-area .geodir-listing-search .geodir-search .search_by_post,
   body.sd #geodir_content .geodir-listing-search .geodir-search .search_by_post,
-  body.sd #geodir_content .geodir-listing-search .geodir-search input[type="button"],
-  body.sd #geodir_content .geodir-listing-search .geodir-search input[type="text"] {
+  body.sd
+    #geodir_content
+    .geodir-listing-search
+    .geodir-search
+    input[type="button"],
+  body.sd
+    #geodir_content
+    .geodir-listing-search
+    .geodir-search
+    input[type="text"] {
     width: 100%;
     margin: 0.5%;
   }
-
 }
-
 
 /*
 #################################################
@@ -1558,30 +1691,37 @@ fix iOS bug not displaying 100vh correctly
 #################################################
 */
 /* ipad */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  .home .featured-area, .sd-location .featured-area {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .home .featured-area,
+  .sd-location .featured-area {
     height: 768px;
   }
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  .home .featured-area, .sd-location .featured-area {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .home .featured-area,
+  .sd-location .featured-area {
     height: 1024px;
   }
 }
 /* iphone5 */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
-  .home .featured-area, .sd-location .featured-area {
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .home .featured-area,
+  .sd-location .featured-area {
     height: 320px;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
-  .home .featured-area, .sd-location .featured-area {
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .home .featured-area,
+  .sd-location .featured-area {
     height: 568px;
   }
 }
 /* iPhone 4 */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-  .home .featured-area, .sd-location .featured-area{
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .home .featured-area,
+  .sd-location .featured-area {
     height: 320px;
   }
 }
+
+@import "./partials/myhappykids";

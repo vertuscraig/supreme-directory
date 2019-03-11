@@ -1,0 +1,20 @@
+// Makes header search wider
+body
+  .geodir-listing-search.gd-search-bar-style
+  .geodir-loc-bar
+  .clearfix.geodir-loc-bar-in
+  .geodir-search
+  .gd-search-input-wrapper.gd-search-field-cpt {
+  min-width: 190px;
+}
+// Changes Color of HomePage Title
+#ds-container
+  > div.sd-container
+  > div
+  > article
+  > header
+  > div
+  > div.header-wrap
+  > h1 {
+  color: black;
+}
