@@ -11,6 +11,31 @@ h1 {
 }
 
 //*********************************
+// MENU BAR CONTAINER AND CONTENT
+//*********************************
+.sd .featured-area h1.entry-title::after {
+  content: url("./images/finallogo-newsite.png");
+}
+// Adjusts logo size - todo add image using ::after
+.site-header h1 {
+  font-size: 2em;
+}
+
+// Adjusts menu font size
+#primary-nav ul li a {
+  font-size: 16px;
+}
+
+//Adjusts sub menu size
+#primary-nav ul .sub-menu a {
+  width: 280px;
+}
+
+#primary-nav ul .sub-menu .sub-menu {
+  left: -280px;
+}
+
+//*********************************
 // HOME PAGE HEADER EDITS
 //*********************************
 

@@ -1925,6 +1925,26 @@ h1 {
   font-family: "Rancho", cursive;
 }
 
+.sd .featured-area h1.entry-title::after {
+  content: url("./images/finallogo-newsite.png");
+}
+
+.site-header h1 {
+  font-size: 2em;
+}
+
+#primary-nav ul li a {
+  font-size: 16px;
+}
+
+#primary-nav ul .sub-menu a {
+  width: 280px;
+}
+
+#primary-nav ul .sub-menu .sub-menu {
+  left: -280px;
+}
+
 header .featured-area::before {
   background-color: white;
   opacity: 0.3;
