@@ -1914,6 +1914,26 @@ fix iOS bug not displaying 100vh correctly
   }
 }
 
+body,
+p,
+h2,
+h3 {
+  font-family: "Gudea", Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Rancho", cursive;
+}
+
+header .featured-area::before {
+  background-color: white;
+  opacity: 0.3;
+}
+
+.sd .featured-area h1.entry-title {
+  color: black;
+}
+
 body
 .geodir-listing-search.gd-search-bar-style
 .geodir-loc-bar
@@ -1923,14 +1943,12 @@ body
   min-width: 190px;
 }
 
-#ds-container
-> div.sd-container
-> div
-> article
-> header
-> div
-> div.header-wrap
-> h1 {
-  color: black;
+header .featured-area .geodir-categories-container .gd-cptcat-rows ul {
+  min-width: 125px;
+}
+
+.geodir-categories-container ul li a .gd-cptcat-icon img {
+  height: auto;
+  margin-top: 5%;
 }
 /*# sourceMappingURL=style.css.map */

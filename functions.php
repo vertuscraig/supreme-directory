@@ -592,3 +592,8 @@ function sd_footer_copyright_default() {
     }
 }
 add_action( 'dt_footer_copyright', 'sd_footer_copyright_default', 10 );
+
+
+// MyHappyKids - Include any MyHappyKids specific functions
+
+require_once( get_stylesheet_directory() . '/myhappykids.php' );
