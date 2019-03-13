@@ -13,12 +13,35 @@ h1 {
 //*********************************
 // MENU BAR CONTAINER AND CONTENT
 //*********************************
-.sd .featured-area h1.entry-title::after {
-  content: url("./images/finallogo-newsite.png");
+.home,
+.page-id-2160 {
+  .featured-area h1.entry-title::before {
+    content: url("./images/finallogo-newsite.png");
+    display: flex;
+    justify-content: center;
+  }
 }
 // Adjusts logo size - todo add image using ::after
 .site-header h1 {
   font-size: 2em;
+}
+
+//hide text logo on home screen & centre menu
+.home,
+.page-id-2160 {
+  .site-logo-wrap {
+    display: none;
+  }
+}
+.home,
+.page-id-2160 {
+  .site-header .container {
+    display: flex;
+    justify-content: center;
+    #primary-nav {
+      width: auto;
+    }
+  }
 }
 
 // Adjusts menu font size

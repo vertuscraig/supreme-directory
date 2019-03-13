@@ -1925,12 +1925,39 @@ h1 {
   font-family: "Rancho", cursive;
 }
 
-.sd .featured-area h1.entry-title::after {
+.home .featured-area h1.entry-title::before,
+.page-id-2160 .featured-area h1.entry-title::before {
   content: url("./images/finallogo-newsite.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .site-header h1 {
   font-size: 2em;
+}
+
+.home .site-logo-wrap,
+.page-id-2160 .site-logo-wrap {
+  display: none;
+}
+
+.home .site-header .container,
+.page-id-2160 .site-header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .site-header .container #primary-nav,
+.page-id-2160 .site-header .container #primary-nav {
+  width: auto;
 }
 
 #primary-nav ul li a {
