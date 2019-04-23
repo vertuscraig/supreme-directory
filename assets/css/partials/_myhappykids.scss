@@ -93,3 +93,20 @@ header .featured-area .geodir-categories-container .gd-cptcat-rows ul {
   height: auto;
   margin-top: 5%;
 }
+
+//*********************************
+// HOME LISTINGS WIDGETS
+//*********************************
+
+body
+  ul.geodir-category-list-view
+  li
+  .gd-list-item-right
+  .geodir-field-post_content {
+  max-height: 135px;
+  .gd-read-more {
+    background-image: none;
+    background-color: white;
+    padding: 0;
+  }
+}
