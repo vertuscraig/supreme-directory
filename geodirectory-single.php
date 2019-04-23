@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: GeoDirectory
+ * Template Name: GeoDirectory Single
  *
  * @package Supreme_Directory
  * @since 2.0.0
@@ -19,6 +19,12 @@ $sd_sidebar_class = 'sidebar-active sidebar-'.$dt_blog_sidebar_position;
     <div class="fullwidth-sidebar-container">
         <div class="sidebar top-sidebar">
             <?php dynamic_sidebar('sidebar-gd-top'); ?>
+        </div>
+    </div>
+
+    <div class="fullwidth-sidebar-container sd-details-top-section">
+        <div class="sidebar top-sidebar">
+            <?php get_template_part( 'template-parts/header/header', 'single-top' ); ?>
         </div>
     </div>
 
