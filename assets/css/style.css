@@ -2036,4 +2036,24 @@ li
   background-color: white;
   padding: 0;
 }
+
+.geodir-post-slider {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  text-align: center;
+}
+
+.sidebar button {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+.sidebar .gd-rating-info-wrap {
+  margin-bottom: 15px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -110,3 +110,28 @@ body
     padding: 0;
   }
 }
+
+//*********************************
+// DETAILS PAGE
+//*********************************
+
+//Make image slider smaller
+.geodir-post-slider {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  text-align: center;
+  //Makes buttons larger
+  button {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 15px 0;
+    margin-bottom: 10px;
+  }
+  //Ratings Margin
+  .gd-rating-info-wrap {
+    margin-bottom: 15px;
+  }
+}
